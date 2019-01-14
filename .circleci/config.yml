@@ -7,7 +7,8 @@ jobs:
       - run: echo "hello world" # run the `echo` command
       - slack/notify:
           color: '#42e2f4'
-          mentions: '$CIRCLE_USERNAME'
+          mentions: 'user'
+          project: '$CIRCLE_PROJECT_REPONAME'
           message: This is a custom message notification
           webhook: https://hooks.slack.com/services/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
 orbs:
