@@ -9,7 +9,7 @@ jobs:
           color: '#42e2f4'
           mentions: 'USERID1,USERID2,'
           message: This is a custom message notification
-          webhook: webhook
+          webhook: https://hooks.slack.com/services/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
 orbs:
   slack: circleci/slack@1.0.0
 version: 2.1
